@@ -1,0 +1,42 @@
+{
+  "name": "TRI CONTROLS BOT",
+  "description": "Advanced WhatsApp Bot by GHOSTTRI - TRI MSTR DEV STUDIO",
+  "repository": "https://github.com/ghosttri/tri-controls-bot",
+  "logo": "https://raw.githubusercontent.com/ghosttri/tri-controls-bot/main/logo.png",
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "session",
+    "baileys",
+    "tri-controls",
+    "ghosttri"
+  ],
+  "env": {
+    "MEGA_EMAIL": {
+      "description": "Your MEGA.nz email address",
+      "value": "irokzmusicworld@gmail.com",
+      "required": true
+    },
+    "MEGA_PASSWORD": {
+      "description": "Your MEGA.nz password",
+      "value": "Tri@369069786",
+      "required": true
+    },
+    "NODE_ENV": {
+      "description": "Environment",
+      "value": "production",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}

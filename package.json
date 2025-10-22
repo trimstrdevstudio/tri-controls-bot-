@@ -1,0 +1,34 @@
+{
+  "name": "tri-controls-bot",
+  "version": "2.0.0",
+  "description": "TRI CONTROLS BOT - Advanced WhatsApp Bot by GHOSTTRI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "monitor": "node monitor.js",
+    "build": "echo 'No build step required'",
+    "test": "echo 'No tests specified' && exit 0"
+  },
+  "keywords": [
+    "whatsapp-bot",
+    "tri-controls",
+    "ghosttri",
+    "baileys",
+    "session-generator"
+  ],
+  "author": "GHOSTTRI - TRI MSTR DEV STUDIO",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "6.7.17",
+    "express": "4.18.2",
+    "qrcode": "1.5.3",
+    "fs-extra": "11.1.1",
+    "pino": "8.15.0",
+    "megajs": "1.3.3",
+    "body-parser": "1.20.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
